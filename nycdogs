@@ -1,5 +1,5 @@
 #!bin/bash
 
-FILE=~/nyc-pets/nycdogs.csv
+FILE=~/nycdogs.csv
 
 	cat $FILE | cut -d, -f5 | sort | uniq -c | sort -n | HEAD 
