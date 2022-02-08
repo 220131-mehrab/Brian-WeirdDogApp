@@ -1,6 +1,0 @@
-#!/bin/bash
-
-	echo "Obscure NYC dog breeds"
-	cat nycdogs.csv | cut -d, -f5 | sort | uniq -c | sort -n | HEAD
-
-
