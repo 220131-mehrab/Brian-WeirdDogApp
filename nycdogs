@@ -1,5 +1,6 @@
-#!bin/bash
+#!/bin/bash
 
-FILE=~/nycdogs.csv
+	echo "Obscure NYC dog breeds"
+	cat nycdogs.csv | cut -d, -f5 | sort | uniq -c | sort -n | HEAD
 
-	cat $FILE | cut -d, -f5 | sort | uniq -c | sort -n | HEAD 
+
