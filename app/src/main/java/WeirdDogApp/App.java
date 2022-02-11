@@ -5,10 +5,11 @@ package WeirdDogApp;
 
 public class App {
     public String getGreeting() {
-        return "Hello World!";
+        return "Obscure Dog Breeds in NYC";
     }
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+
     }
 }
